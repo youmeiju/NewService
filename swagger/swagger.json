@@ -1,0 +1,196 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "beego Test API",
+        "description": "beego has a very cool tools to autogenerate documents for your API",
+        "version": "1.0.0",
+        "termsOfService": "http://beego.me/",
+        "contact": {
+            "email": "astaxie@gmail.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        }
+    },
+    "basePath": "/v1",
+    "paths": {
+        "/object/GetFirstMenu": {
+            "get": {
+                "tags": [
+                    "object"
+                ],
+                "description": "SearchGoodsList",
+                "operationId": "GoodsControllers.FirstMenu",
+                "responses": {
+                    "200": {
+                        "description": "{map}"
+                    },
+                    "403": {
+                        "description": "body is empty"
+                    }
+                }
+            }
+        },
+        "/object/GetGoodsDetail": {
+            "get": {
+                "tags": [
+                    "object"
+                ],
+                "description": "GetGoodsDetail",
+                "operationId": "GoodsControllers.GetGoodsDetail",
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "id",
+                        "description": "id for GoodsDetail",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int64"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{map}"
+                    },
+                    "403": {
+                        "description": "body is empty"
+                    }
+                }
+            }
+        },
+        "/object/GetMenuGoodsList": {
+            "get": {
+                "tags": [
+                    "object"
+                ],
+                "description": "SearchGoodsList",
+                "operationId": "GoodsControllers.FirstMenu",
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "id",
+                        "description": "id for FirstMenu",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int64"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{map}"
+                    },
+                    "403": {
+                        "description": "body is empty"
+                    }
+                }
+            }
+        },
+        "/object/SearchGoodsList": {
+            "post": {
+                "tags": [
+                    "object"
+                ],
+                "description": "SearchGoodsList",
+                "operationId": "GoodsControllers.SearchGoodsList",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "searchData",
+                        "description": "body for SearchGoodsList",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/.map"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{map}"
+                    },
+                    "403": {
+                        "description": "body is empty"
+                    }
+                }
+            }
+        },
+        "/object/indexGoods": {
+            "get": {
+                "tags": [
+                    "object"
+                ],
+                "description": "GetIndexInfo",
+                "operationId": "GoodsControllers.GetIndexInfo",
+                "responses": {
+                    "200": {
+                        "description": "{map}"
+                    },
+                    "403": {
+                        "description": "body is empty"
+                    }
+                }
+            }
+        },
+        "/user/GetUserToken": {
+            "post": {
+                "tags": [
+                    "user"
+                ],
+                "description": "GetGoodsDetail",
+                "operationId": "UserControllers.GetUserToken",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "data",
+                        "description": "data for GetUserInfo",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/.map"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{map}"
+                    },
+                    "403": {
+                        "description": "body is empty"
+                    }
+                }
+            }
+        },
+        "/user/IsUserToken": {
+            "post": {
+                "tags": [
+                    "user"
+                ],
+                "description": "IsUserToken",
+                "operationId": "UserControllers.IsUserToken",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "Token",
+                        "description": "body for Token",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/.map"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{map}"
+                    },
+                    "403": {
+                        "description": "body is empty"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        ".map": {
+            "type": "object"
+        }
+    }
+}

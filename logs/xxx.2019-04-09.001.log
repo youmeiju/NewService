@@ -1,0 +1,72 @@
+2019/04/08 02:54:40.253 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|      304.3µs| nomatch|[44m GET     [0m /  
+2019/04/08 04:57:56.338 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    345.713µs| nomatch|[44m GET     [0m /  
+2019/04/08 06:03:27.320 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    370.193µs| nomatch|[44m GET     [0m //ldskflks
+2019/04/08 06:03:28.207 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    316.343µs| nomatch|[44m GET     [0m //login
+2019/04/08 07:51:46.240 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    290.399µs| nomatch|[44m GET     [0m /  
+2019/04/08 08:14:07.119 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    309.589µs| nomatch|[44m GET     [0m /  
+2019/04/08 11:38:31.167 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    309.243µs| nomatch|[44m GET     [0m //ldskflks
+2019/04/08 11:38:32.079 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    343.723µs| nomatch|[44m GET     [0m //login
+2019/04/08 16:05:10.125 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   5.416539ms|   match|[46m POST    [0m /v1/user/IsUserToken   r:/v1/user/IsUserToken
+2019/04/08 16:05:10.127 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|  20.065051ms|   match|[44m GET     [0m /v1/goods/indexGoods   r:/v1/goods/indexGoods
+2019/04/08 16:05:10.420 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    206.381µs|   match|[44m GET     [0m /img/banner/banner31.jpg
+2019/04/08 16:05:10.420 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    138.723µs|   match|[44m GET     [0m /img/banner/banner21.jpg
+2019/04/08 16:05:10.421 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     99.883µs|   match|[44m GET     [0m /img/banner/banner11.jpg
+2019/04/08 16:05:10.424 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    106.166µs|   match|[44m GET     [0m /img/icon/rishi.png
+2019/04/08 16:05:10.424 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    100.442µs|   match|[44m GET     [0m /img/icon/zengji.png
+2019/04/08 16:05:10.425 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     97.596µs|   match|[44m GET     [0m /img/icon/jiankang.png
+2019/04/08 16:05:10.467 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    184.975µs|   match|[44m GET     [0m /img/goods/2019-01-02-15-52-25.jpg
+2019/04/08 16:05:10.468 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    106.048µs|   match|[44m GET     [0m /img/banner/center.png
+2019/04/08 16:05:10.470 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    136.643µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-42-13.jpg
+2019/04/08 16:05:10.515 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    199.963µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-23-57.jpg
+2019/04/08 16:05:10.535 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    124.442µs|   match|[44m GET     [0m /img/icon/taoc.png
+2019/04/08 16:05:10.537 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    250.164µs|   match|[44m GET     [0m /img/goods/2019-01-02-15-58-56.jpg
+2019/04/08 16:05:10.574 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    177.278µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-00-02.jpg
+2019/04/08 16:05:10.581 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    132.484µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-00-55.jpg
+2019/04/08 16:05:10.584 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    114.706µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-14-42.jpg
+2019/04/08 16:05:10.588 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     122.47µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-11-29.jpg
+2019/04/08 16:05:10.599 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    133.648µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-17-18.jpg
+2019/04/08 16:05:25.028 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|  13.198504ms|   match|[44m GET     [0m /v1/goods/indexGoods   r:/v1/goods/indexGoods
+2019/04/08 16:05:43.610 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|  13.133849ms|   match|[44m GET     [0m /v1/goods/indexGoods   r:/v1/goods/indexGoods
+2019/04/08 16:05:49.790 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.616404ms|   match|[44m GET     [0m /v1/goods/GetFirstMenu   r:/v1/goods/GetFirstMenu
+2019/04/08 16:05:50.028 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.918013ms|   match|[46m POST    [0m /v1/goods/GetGoodsList   r:/v1/goods/GetGoodsList
+2019/04/08 16:05:50.394 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    212.519µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-02-08.jpg
+2019/04/08 16:05:50.448 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    204.749µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-02-20.jpg
+2019/04/08 16:05:50.586 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    192.764µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-13-16.jpg
+2019/04/08 16:05:50.603 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    146.821µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-13-55.jpg
+2019/04/08 16:05:50.629 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    141.828µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-16-21.jpg
+2019/04/08 16:05:50.659 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    202.828µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-21-50.jpg
+2019/04/08 16:05:50.752 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    172.601µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-22-55.jpg
+2019/04/08 16:05:55.311 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.713747ms|   match|[46m POST    [0m /v1/goods/GetGoodsList   r:/v1/goods/GetGoodsList
+2019/04/08 16:05:55.390 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   1.993264ms|   match|[44m GET     [0m /img/goods/2019-03-22-15-40-18.jpg
+2019/04/08 16:05:57.552 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.803075ms|   match|[44m GET     [0m /v1/goods/GetGoodsDetail   r:/v1/goods/GetGoodsDetail
+2019/04/08 16:06:09.249 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   6.770907ms|   match|[44m GET     [0m /v1/red/GetUseRed   r:/v1/red/GetUseRed
+2019/04/08 16:06:23.031 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   7.422758ms|   match|[44m GET     [0m /v1/red/GetUseRed   r:/v1/red/GetUseRed
+2019/04/08 16:06:24.086 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   17.61735ms|   match|[46m POST    [0m /v1/order/NewOrder   r:/v1/order/NewOrder
+2019/04/08 16:06:24.308 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.892941ms|   match|[44m GET     [0m /v1/order/GetOrderInfo   r:/v1/order/GetOrderInfo
+2019/04/08 16:06:26.841 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m| 343.359273ms|   match|[44m GET     [0m /v1/order/OrderPay   r:/v1/order/OrderPay
+2019/04/08 16:06:32.924 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|  25.783014ms|   match|[44m GET     [0m /v1/order/GetOrderList   r:/v1/order/GetOrderList
+2019/04/08 16:06:32.937 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   22.98036ms|   match|[44m GET     [0m /v1/order/GetOrderList   r:/v1/order/GetOrderList
+2019/04/08 16:06:36.546 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   9.170672ms|   match|[44m GET     [0m /v1/order/GetOrderDetail   r:/v1/order/GetOrderDetail
+2019/04/08 16:06:45.570 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.798083ms|   match|[44m GET     [0m /v1/order/GetOrderInfo   r:/v1/order/GetOrderInfo
+2019/04/08 16:06:47.843 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m| 199.265491ms|   match|[44m GET     [0m /v1/order/OrderPay   r:/v1/order/OrderPay
+2019/04/08 16:06:51.930 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   10.82554ms|   match|[46m POST    [0m /v1/order/UpdateOrderStatue   r:/v1/order/UpdateOrderStatue
+2019/04/08 16:06:53.511 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|  22.652585ms|   match|[44m GET     [0m /v1/order/GetOrderList   r:/v1/order/GetOrderList
+2019/04/08 16:06:53.526 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|  25.887544ms|   match|[44m GET     [0m /v1/order/GetOrderList   r:/v1/order/GetOrderList
+2019/04/08 16:06:57.697 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|  24.040876ms|   match|[44m GET     [0m /v1/order/GetOrderList   r:/v1/order/GetOrderList
+2019/04/08 16:07:00.000 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.003414ms|   match|[44m GET     [0m /v1/goods/GetFirstMenu   r:/v1/goods/GetFirstMenu
+2019/04/08 16:07:00.188 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.225164ms|   match|[46m POST    [0m /v1/goods/GetGoodsList   r:/v1/goods/GetGoodsList
+2019/04/08 16:07:18.153 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    4.05343ms|   match|[44m GET     [0m /v1/adminUser/GetOrderNum   r:/v1/adminUser/GetOrderNum
+2019/04/08 16:07:25.027 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   8.335167ms|   match|[44m GET     [0m /v1/adminUser/GetAdminOrderList   r:/v1/adminUser/GetAdminOrderList
+2019/04/08 16:07:26.708 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   9.253789ms|   match|[44m GET     [0m /v1/adminUser/GetAdminOrderDetail   r:/v1/adminUser/GetAdminOrderDetail
+2019/04/08 16:07:40.704 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.754874ms|   match|[44m GET     [0m /v1/adminUser/GetUser   r:/v1/adminUser/GetUser
+2019/04/08 16:07:45.086 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|  14.040468ms|   match|[44m GET     [0m /v1/adminUser/UpdateOrderUser   r:/v1/adminUser/UpdateOrderUser
+2019/04/08 16:07:46.646 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    9.41338ms|   match|[44m GET     [0m /v1/adminUser/GetAdminOrderDetail   r:/v1/adminUser/GetAdminOrderDetail
+2019/04/08 16:08:26.353 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    8.97424ms|   match|[44m GET     [0m /v1/adminUser/GetAdminOrderDetail   r:/v1/adminUser/GetAdminOrderDetail
+2019/04/08 16:08:29.504 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m| 956.956047ms|   match|[44m GET     [0m /v1/adminUser/Refund   r:/v1/adminUser/Refund
+2019/04/08 16:08:31.654 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.543953ms|   match|[44m GET     [0m /v1/adminUser/GetAdminOrderList   r:/v1/adminUser/GetAdminOrderList
+2019/04/08 16:08:38.429 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.675116ms|   match|[44m GET     [0m /v1/adminUser/GetAdminOrderList   r:/v1/adminUser/GetAdminOrderList
+2019/04/08 16:09:45.052 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   7.449042ms|   match|[46m POST    [0m /v1/adminUser/RefundNotice   r:/v1/adminUser/RefundNotice
+2019/04/08 20:20:27.108 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    295.369µs| nomatch|[44m GET     [0m /  
+2019/04/08 21:49:06.336 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    296.288µs| nomatch|[44m GET     [0m /  
+2019/04/08 23:42:06.065 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    321.778µs| nomatch|[44m GET     [0m /  
+2019/04/08 23:47:23.592 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    267.215µs| nomatch|[44m GET     [0m /_all/_mapping

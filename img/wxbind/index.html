@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+<html class="ui-page-login">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>微信绑定手机号码</title>
+    <link href="https://cdn.bootcss.com/mui/3.7.1/css/mui.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <style type="text/css">
+        .ui-page-login,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .ui-page-login {
+            background-image: url("images/login-bg.jpg");
+            background-size: 100% 100%;
+        }
+
+        .login-content {
+            position: absolute;
+            top: 30%;
+            width: 80%;
+            left: 50%;
+            border-radius: 10px;
+            padding: 0 25px;
+            background-color: #fff;
+            transform: translateX(-50%);
+        }
+
+        .login-logo {
+            text-align: center;
+            width: 50px;
+            height: 50px;
+            margin: -37px auto 0 auto;
+        }
+
+        .login-logo img {
+            border-radius: 50%;
+            width: 100%;
+        }
+
+        .ipttxt-row {
+            margin-top: 12px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .ipttxt-row label {
+            width: 20%;
+        }
+
+        .ipttxt-row .mui-input {
+            width: 100%;
+            border: 1px solid #fb4746;
+            border-radius: 30px;
+            margin-bottom: 0;
+            background-color: transparent;
+            padding-left: 20px;
+        }
+
+        .ipttxt-row .mui-input::placeholder {
+            font-size: 14px;
+        }
+
+        .link-area {
+            margin-top: 12px;
+            margin-bottom: 15px;
+            text-align: right;
+        }
+
+        .link-area a {
+            color: #fb4746;
+            font-size: 14px;
+        }
+
+        .mui-btn-login {
+            margin: 20px auto;
+            padding: 10px 0;
+            background-color: #ff7776;
+            border: 1px solid #fb4746;
+            border-radius: 30px;
+            color: #fff;
+        }
+
+        .mui-input-row {
+            position: relative;
+            border: 1px solid #fb4746;
+            border-radius: 30px;
+            margin-top: 10px;
+            padding: 0 1rem;
+            height: 2.5rem;
+            line-height: 2.5rem;
+            font-size: 0.75rem;
+        }
+
+        .mui-input-row .mui-input {
+            top: 0;
+            position: absolute;
+        }
+
+        .mui-input-row label {
+            height: 2.5rem;
+            line-height: 2.5rem;
+            padding: 0;
+            font-family: 'Helvetica Neue', Helvetica, sans-serif;
+            float: left;
+            width: 25%;
+        }
+
+        #sendPhoneCode {
+            background-color: #fff;
+            border: 1px solid #fb9101;
+            border-radius: 14px;
+            color: #fb9101;
+            position: absolute;
+            right: 0.3rem;
+            top: 0;
+            text-align: center;
+            top: 0.6rem;
+            font-size: 0.54rem;
+            padding: 0.2rem 0;
+            width: 31%;
+        }
+    </style>
+</head>
+
+<body class="ui-page-login">
+    <!-- <header class="mui-bar mui-bar-transparent">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+    </header> -->
+    <div class="login-content mui-content page_reg">
+        <form id="login-form">
+            <div class="mui-input-row" style="position:relative">
+                <label>账号</label>
+                <input id='phone' type="number" class="mui-input" placeholder="请输入账号">
+            </div>
+            <div class="mui-input-row" style="position:relative">
+                <label>密码</label>
+                <input id='phone_code' type="text" class="mui-input" placeholder="请输入密码">
+            </div>
+        </form>
+        <div class="">
+            <button type="button" id="submintBtn" class="mui-btn mui-btn-block mui-btn-login">绑定</button>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/mui/3.7.1/js/mui.min.js"></script>
+    <script>
+        $(function ($) {
+            var code = '',
+                openid = "";
+            var wait = 60;//倒计时60秒
+            var intervalId;//定时
+            var i = wait;//倒计时递减 1
+
+            /**
+            * 获取url参数
+            * @param name
+            * @returns {null}
+            * @constructor
+            */
+            function GetQueryString(name) {
+                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+                var r = window.location.search.substr(1).match(reg);
+                if (r != null) return unescape(r[2]);
+                return null;
+            }
+            code = GetQueryString("code");
+
+            //获取code
+            mui.toast(code)
+            function goWixinURL(result) {
+                var weixinForm = {
+                    appid: result.appId,
+                    response_type: 'code',
+                    scope: 'snsapi_userinfo',  //'snsapi_base',//'snsapi_userinfo',
+                    state: '',
+                }
+                var params = $.param(weixinForm) + "#wechat_redirect"
+                window.location.href = "https://open.weixin.qq.com/connect/oauth2/authorize?redirect_uri=" + result.url + "&" + params;
+            }
+            //提交code
+            $('#submintBtn').click(function () {
+                var phone = $.trim($("#phone").val());
+                var phone_code = $.trim($("#phone_code").val());
+                console.log(phone,phone_code,code)
+                if (phone == '') {
+                    mui.alert('请输入手机号', '系统提示', function () {
+                        $('#phone').focus();
+                    });
+                    return false;
+                }
+                if (phone_code == '') {
+                    mui.alert('请输入密码', '系统提示', function () {
+                        $('#phone_code').focus();
+                    });
+                    return false;
+                }
+                $.ajax({
+                    url: 'https://service.shanghaiyoumeiju2018.com/v1/adminUser/WXBind?phone='+phone+"&code="+code+"&phone_code="+phone_code,
+                    type: 'get',
+                    async: false,
+                    dataType: "json",
+                    success: function (data) {
+                        if(data.Code=="1"){
+                            mui.toast(data.Msg);
+                        }else{
+                            mui.toast(data.Msg);
+                            goWixinURL({
+                                appId: 'wxb4e8fb564d2b9cca',
+                                url: 'https://service.shanghaiyoumeiju2018.com/img/wxbind/index.html'
+                            });
+                        }
+                    },
+                    error: function (error) {
+                        console.log(error)
+                    }
+                });
+
+            });
+        });
+    </script>
+</body>
+
+</html>

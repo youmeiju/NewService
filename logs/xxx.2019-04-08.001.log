@@ -1,0 +1,79 @@
+2019/04/07 01:15:27.155 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|     341.57µs| nomatch|[44m GET     [0m /  
+2019/04/07 05:49:45.237 [D] [server.go:2619]  | 182.245.45.187|[43m 404 [0m|    349.461µs| nomatch|[44m GET     [0m /  
+2019/04/07 05:49:45.237 [D] [server.go:2619]  | 182.245.45.187|[43m 404 [0m|     219.36µs| nomatch|[44m GET     [0m /  
+2019/04/07 05:49:45.328 [D] [server.go:2619]  | 182.245.45.187|[43m 404 [0m|    304.214µs| nomatch|[44m GET     [0m /  
+2019/04/07 05:49:45.328 [D] [server.go:2619]  | 182.245.45.187|[43m 404 [0m|    219.326µs| nomatch|[44m GET     [0m /  
+2019/04/07 05:49:45.433 [D] [server.go:2619]  | 182.245.45.187|[43m 404 [0m|    325.525µs| nomatch|[44m GET     [0m /  
+2019/04/07 05:49:45.490 [D] [server.go:2619]  | 182.245.45.187|[43m 404 [0m|    308.249µs| nomatch|[44m GET     [0m /  
+2019/04/07 05:49:45.529 [D] [server.go:2619]  | 182.245.45.187|[43m 404 [0m|    293.529µs| nomatch|[44m GET     [0m /  
+2019/04/07 05:49:45.529 [D] [server.go:2619]  | 182.245.45.187|[43m 404 [0m|    195.139µs| nomatch|[44m GET     [0m /  
+2019/04/07 05:49:45.689 [D] [server.go:2619]  | 182.245.45.187|[43m 404 [0m|    340.456µs| nomatch|[0m CONNECT [0m    
+2019/04/07 07:27:04.609 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    336.138µs| nomatch|[44m GET     [0m /  
+2019/04/07 08:48:30.942 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    349.463µs| nomatch|[44m GET     [0m /  
+2019/04/07 08:54:42.357 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    278.167µs| nomatch|[44m GET     [0m /  
+2019/04/07 12:49:07.621 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    625.221µs|   match|[44m GET     [0m /img/goods/2019-04-07-12-48-57.png
+2019/04/07 14:07:17.473 [D] [server.go:2619]  |      127.0.0.1|[42m 206 [0m|    131.814µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-37-27.jpg
+2019/04/07 14:07:17.533 [D] [server.go:2619]  |      127.0.0.1|[42m 206 [0m|    512.187µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-37-27.jpg
+2019/04/07 14:08:00.705 [D] [server.go:2619]  |      127.0.0.1|[43m 404 [0m|    323.667µs| nomatch|[44m GET     [0m /  
+2019/04/07 20:59:46.079 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    7.28331ms|   match|[46m POST    [0m /v1/user/IsUserToken   r:/v1/user/IsUserToken
+2019/04/07 20:59:46.368 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.734397ms|   match|[44m GET     [0m /v1/goods/indexGoods   r:/v1/goods/indexGoods
+2019/04/07 20:59:46.915 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m| 255.411593ms|   match|[46m POST    [0m /v1/user/GetUserToken   r:/v1/user/GetUserToken
+2019/04/07 20:59:46.917 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m| 179.192244ms|   match|[46m POST    [0m /v1/user/GetUserToken   r:/v1/user/GetUserToken
+2019/04/07 20:59:47.016 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   2.603333ms|   match|[46m POST    [0m /v1/user/IsUserToken   r:/v1/user/IsUserToken
+2019/04/07 20:59:47.043 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|  13.262318ms|   match|[44m GET     [0m /v1/goods/indexGoods   r:/v1/goods/indexGoods
+2019/04/07 20:59:47.383 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    274.114µs|   match|[44m GET     [0m /img/banner/banner31.jpg
+2019/04/07 20:59:47.519 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     240.47µs|   match|[44m GET     [0m /img/icon/jiankang.png
+2019/04/07 20:59:47.605 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    294.761µs|   match|[44m GET     [0m /img/icon/zengji.png
+2019/04/07 20:59:47.606 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    298.886µs|   match|[44m GET     [0m /img/icon/rishi.png
+2019/04/07 20:59:47.606 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    751.343µs|   match|[44m GET     [0m /img/banner/banner21.jpg
+2019/04/07 20:59:47.606 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     447.78µs|   match|[44m GET     [0m /img/banner/banner11.jpg
+2019/04/07 20:59:47.661 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    197.284µs|   match|[44m GET     [0m /img/icon/taoc.png
+2019/04/07 20:59:47.723 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    273.638µs|   match|[44m GET     [0m /img/banner/center.png
+2019/04/07 20:59:47.761 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    217.774µs|   match|[44m GET     [0m /img/goods/2019-01-02-15-52-25.jpg
+2019/04/07 20:59:47.787 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    202.059µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-42-13.jpg
+2019/04/07 20:59:47.797 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    270.649µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-23-57.jpg
+2019/04/07 20:59:47.978 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    322.411µs|   match|[44m GET     [0m /img/goods/2019-01-02-15-58-56.jpg
+2019/04/07 20:59:48.020 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    327.405µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-00-02.jpg
+2019/04/07 20:59:48.032 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    274.848µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-00-55.jpg
+2019/04/07 20:59:48.047 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    107.752µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-14-42.jpg
+2019/04/07 20:59:48.194 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    387.536µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-11-29.jpg
+2019/04/07 20:59:48.244 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    339.086µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-17-18.jpg
+2019/04/07 20:59:54.560 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.048157ms|   match|[44m GET     [0m /v1/goods/GetFirstMenu   r:/v1/goods/GetFirstMenu
+2019/04/07 20:59:54.625 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.207006ms|   match|[46m POST    [0m /v1/goods/GetGoodsList   r:/v1/goods/GetGoodsList
+2019/04/07 20:59:55.003 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    273.938µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-02-08.jpg
+2019/04/07 20:59:55.126 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    366.354µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-16-21.jpg
+2019/04/07 20:59:55.156 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    814.832µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-02-20.jpg
+2019/04/07 20:59:55.171 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    195.334µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-13-55.jpg
+2019/04/07 20:59:55.206 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    238.567µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-13-16.jpg
+2019/04/07 20:59:55.241 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    244.838µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-21-50.jpg
+2019/04/07 20:59:55.305 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    263.826µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-22-55.jpg
+2019/04/07 20:59:55.803 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|  13.555274ms|   match|[44m GET     [0m /v1/goods/indexGoods   r:/v1/goods/indexGoods
+2019/04/07 21:05:45.107 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|  13.461478ms|   match|[44m GET     [0m /v1/goods/indexGoods   r:/v1/goods/indexGoods
+2019/04/07 23:14:08.662 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|  13.560676ms|   match|[44m GET     [0m /v1/goods/indexGoods   r:/v1/goods/indexGoods
+2019/04/07 23:14:08.666 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   6.270255ms|   match|[46m POST    [0m /v1/user/IsUserToken   r:/v1/user/IsUserToken
+2019/04/07 23:14:08.961 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    191.546µs|   match|[44m GET     [0m /img/banner/center.png
+2019/04/07 23:14:08.962 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    122.239µs|   match|[44m GET     [0m /img/banner/banner11.jpg
+2019/04/07 23:14:08.962 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     86.202µs|   match|[44m GET     [0m /img/icon/taoc.png
+2019/04/07 23:14:08.963 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    127.768µs|   match|[44m GET     [0m /img/goods/2019-01-02-15-52-25.jpg
+2019/04/07 23:14:08.964 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    127.696µs|   match|[44m GET     [0m /img/banner/banner21.jpg
+2019/04/07 23:14:08.964 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    108.167µs|   match|[44m GET     [0m /img/icon/rishi.png
+2019/04/07 23:14:09.002 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    181.868µs|   match|[44m GET     [0m /img/icon/zengji.png
+2019/04/07 23:14:09.015 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    124.905µs|   match|[44m GET     [0m /img/icon/jiankang.png
+2019/04/07 23:14:09.016 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    128.826µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-42-13.jpg
+2019/04/07 23:14:09.037 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    190.353µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-23-57.jpg
+2019/04/07 23:14:09.255 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    210.103µs|   match|[44m GET     [0m /img/banner/banner31.jpg
+2019/04/07 23:14:09.754 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    197.964µs|   match|[44m GET     [0m /img/goods/2019-01-02-15-58-56.jpg
+2019/04/07 23:14:09.824 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    186.089µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-00-02.jpg
+2019/04/07 23:14:09.870 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    197.441µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-00-55.jpg
+2019/04/07 23:14:10.180 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     171.23µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-14-42.jpg
+2019/04/07 23:14:10.233 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|     218.15µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-11-29.jpg
+2019/04/07 23:14:10.298 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    194.021µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-17-18.jpg
+2019/04/07 23:14:17.882 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   3.875218ms|   match|[44m GET     [0m /v1/goods/GetFirstMenu   r:/v1/goods/GetFirstMenu
+2019/04/07 23:14:18.006 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|   4.079663ms|   match|[46m POST    [0m /v1/goods/GetGoodsList   r:/v1/goods/GetGoodsList
+2019/04/07 23:14:18.376 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    190.819µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-13-16.jpg
+2019/04/07 23:14:18.377 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    111.626µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-02-20.jpg
+2019/04/07 23:14:18.377 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    120.965µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-02-08.jpg
+2019/04/07 23:14:18.378 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    107.879µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-16-21.jpg
+2019/04/07 23:14:18.379 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    114.076µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-13-55.jpg
+2019/04/07 23:14:18.410 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    137.653µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-21-50.jpg
+2019/04/07 23:14:18.443 [D] [server.go:2619]  |      127.0.0.1|[42m 200 [0m|    121.944µs|   match|[44m GET     [0m /img/goods/2019-01-02-16-22-55.jpg
